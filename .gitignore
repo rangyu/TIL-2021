@@ -1,0 +1,7 @@
+**/phpmyadmin
+**/.DS_Store
+**/node_modules
+**/.vscode
+**/.git
+**/sftp.json
+**/.sftpConfig.json
