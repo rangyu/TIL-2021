@@ -130,7 +130,7 @@ yarn add --dev chokidar-cli concurrently
   "test": "react-scripts test",
   "eject": "react-scripts eject",
   "watch:css": "postcss src/tailwind.css -o src/index.css",
-  "watch": "chokidar \"./src/**/*.js\" -c \"npm run watch:css\"",
+  "watch": "chokidar \"./src/**/*.js\" -c \"yarn watch:css\"",
   "dev": "concurrently \"yarn watch\" \"yarn start\""
 },
 ...
