@@ -9,6 +9,7 @@ CRA(create-react-app)로 만든 리액트 앱에서 tailwindcss를 사용하는 
 먼저 npm 혹은 yarn으로 tailwindcss 관련 필수 패키지들을 설치한다. tailwindcss는 개발 시에만 사용되고 배포시에서는 일반적인 css로 변환된 파일을 쓰기 때문에 dev 모드로 설치한다. npm에서는 `-D`, yarn에서는 `--dev` 옵션을 붙이면 개발용으로 설치된다. 최신 패키지를 설치하기 위해 `@latest`도 붙여주자.
 
 - tailwindcss
+- postcss
 - postcss-cli
 - autoprefixer
 
