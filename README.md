@@ -8,6 +8,7 @@ Today I Learned 2021
 ## React
 - [React Helmet 경고 메시지 없애기](./react/react-helmet-경고-메시지-없애기.md)
 - [React Context를 커스텀 훅처럼 사용하기](./react/react-context를-커스텀-훅처럼-사용하기.md)
+- [CRA(create-react-app)로 만든 React 앱에서 tailwindcss 사용하기](./react/cra로-만든-react-앱에서-tailwindcss-사용하기.md)
 
 ## Nginx
 - [Nginx에서 301 리디렉션 설정하기](./nginx/nginx-301-리디렉션-설정하기.md)
