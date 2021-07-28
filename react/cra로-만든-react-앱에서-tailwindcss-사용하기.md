@@ -28,7 +28,7 @@ yarn add --dev tailwindcss@latest postcss@latest postcss-cli@latest autoprefixer
 ```
 npx tailwindcss init
 ```
-으로 명령어로 프로젝트 내 루트에 `tailwind.conifg.js`를 생성할 수 있다. 다음과 같은 기본 설정 파일이 생성된다.
+위와같은 명령어로 프로젝트 내 루트에 `tailwind.conifg.js`를 생성할 수 있다. 실행하면 아래와 같은 기본 설정 파일이 생성된다.
 
 ```js
 // tailwind.conifg.js
