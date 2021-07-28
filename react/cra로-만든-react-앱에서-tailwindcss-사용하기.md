@@ -45,7 +45,7 @@ module.exports = {
 }
 ```
 
-tailwindcss의 JIT(Just In Time) 모드를 활성화하면 tailwindcss의 스타일이 적용될때 걸리는 딜레이를 줄일 수 있다. `tailwind.conifg.js`를 다음과 같이 수정해서 JIT 모드를 사용하자.
+tailwindcss의 JIT(Just In Time) 모드를 활성화하면 tailwindcss의 스타일이 적용될 때 걸리는 딜레이를 줄일 수 있다. `tailwind.conifg.js`를 다음과 같이 수정해서 JIT 모드를 사용하자.
 
 ```js
 // tailwind.config.js
