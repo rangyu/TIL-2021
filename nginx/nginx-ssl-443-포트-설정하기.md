@@ -11,11 +11,9 @@ server {
     ssl_certificate "/etc/letsencrypt/live/mydomain.com/fullchain.pem"; # cert.pem
     ssl_certificate_key "/etc/letsencrypt/live/mydomain.com/privkey.pem"; # key.pem
 
-    root "/opt/bitnami/nginx/html";
-    index index.php index.html index.htm;
-
     location / {
-        try_files $uri /index.html;
+        root "/opt/bitnami/nginx/html";
+        index index.php index.html index.htm;
     }
 }
 ```
