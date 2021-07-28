@@ -6,7 +6,7 @@
 # HTTPS
 server {
     listen 443 ssl;
-    server_name mydomain.com;
+    server_name localhost;
 
     ssl_certificate "/etc/letsencrypt/live/mydomain.com/fullchain.pem"; # cert.pem
     ssl_certificate_key "/etc/letsencrypt/live/mydomain.com/privkey.pem"; # key.pem
